@@ -67,6 +67,9 @@ public class EmployeeprojectApplication implements CommandLineRunner {
 		System.out.println(emprep.findById(4));
 		
 		System.out.println(emprep.existsById(8));
+		
+		
+		System.out.println("clone");
 	}
 
 }
